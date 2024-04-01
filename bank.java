@@ -37,8 +37,8 @@ class DatabaseConnection {
 
         
         String url = "jdbc:mysql://localhost:3306/bank";
-        String username = "root";
-        String password = "0731";
+        String username = "[Enter your username]";
+        String password = "[Enter your password]";
         return DriverManager.getConnection(url, username, password);
     }
 }
